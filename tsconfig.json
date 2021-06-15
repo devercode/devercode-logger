@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "ES2015",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "lib": ["ES2015", "ESNext", "ES2016"],
+    "outDir": "dist",
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "declaration": true,
+    "types": ["node", "jest"],
+    "baseUrl": ".",
+    "paths": {
+      "~@/*": ["./src/*"]
+    },
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/**/*.spec.ts", "node_modules/**"],
+  "compileOnSave": false
+}
