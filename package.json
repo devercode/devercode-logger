@@ -2,7 +2,7 @@
   "name": "devercode-logger",
   "private": false,
   "main": "dist/index.js",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": {
     "email": "devercode@gmail.com",
     "name": "devercode"
@@ -16,7 +16,7 @@
   "description": "A Pretty Simple Log",
   "scripts": {
     "dev": "nodemon",
-    "build": "tsc -p tsconfig.json",
+    "build": " rm -rf dist && tsc -p tsconfig.json",
     "test": "jest",
     "publish": "npm publish"
   },
