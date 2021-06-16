@@ -2,7 +2,7 @@
   "name": "devercode-logger",
   "private": false,
   "main": "dist/index.js",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "author": {
     "email": "devercode@gmail.com",
     "name": "devercode"
@@ -18,7 +18,7 @@
     "dev": "nodemon",
     "build": " rm -rf dist && tsc -p tsconfig.json",
     "test": "jest",
-    "publish": "npm publish"
+    "pub": "npm publish"
   },
   "husky": {
     "hooks": {
