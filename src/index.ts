@@ -33,7 +33,7 @@ const consoleLogFormat = winston.format.combine(
     return `${chalk.bgKeyword(colors[msg.level]).keyword("black")(
       `[${label}]`
     )}: ${message} ${chalk.dim.keyword("black")(
-      `[${moment(msg.timestamp).format("DD/MM/YY")}]`
+      `[${moment(msg.timestamp).format("DD/MM/YY hh:mm:ss")}]`
     )}`;
   })
 );
