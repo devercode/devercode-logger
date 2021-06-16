@@ -2,7 +2,7 @@
   "name": "devercode-logger",
   "private": false,
   "main": "dist/index.js",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "author": {
     "email": "devercode@gmail.com",
     "name": "devercode"
@@ -13,11 +13,12 @@
   "repository": {
     "url": "https://github.com/devercode/devercode-logger"
   },
-  "description": "NPM package builder starter",
+  "description": "A Pretty Simple Log",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc -p tsconfig.json",
-    "test": "jest"
+    "test": "jest",
+    "publish": "npm publish"
   },
   "husky": {
     "hooks": {
