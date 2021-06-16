@@ -24,7 +24,7 @@ const consoleLogFormat = winston.format.combine(
     const args = msg.message.split("::");
     let label, message;
     if (args.length > 1) {
-      label = args[0];
+      label = args[0].toUpperCase();
       message = args[1];
     } else {
       label = msg.level.toUpperCase();
