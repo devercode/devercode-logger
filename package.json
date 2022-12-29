@@ -2,7 +2,7 @@
   "name": "devercode-scrapy",
   "private": false,
   "main": "dist/index.js",
-  "version": "1.0.13",
+  "version": "1.0.1",
   "author": {
     "email": "devercode@gmail.com",
     "name": "devercode"
@@ -13,7 +13,7 @@
   "repository": {
     "url": "https://github.com/devercode/devercode-scrapy"
   },
-  "description": "A Pretty Simple Log",
+  "description": "A Bridge between node and curl impersonate",
   "scripts": {
     "dev": "nodemon",
     "build": " rm -rf dist && tsc -p tsconfig.json",
